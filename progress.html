@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Progress Report</title>
+        <link rel="stylesheet" href="master.css">
+        <style>
+            *{
+                margin:0;
+                padding:0;
+                box-sizing:border-box;
+                font-family:"poppins",sans-serif;
+
+            }
+            body{
+                background:#dfe9f5;
+            }
+            .container{
+                width:370px;
+                margin:3.8rem auto;
+                padding:20px;
+                text-align:center;
+                border-radius:10px;
+                background:#fff;
+                box-shadow:0 20px 35px rgba(0, 0, 0, 0.1);
+            }
+            .progress-container{
+                margin:auto;
+                width:150px;
+                height:150px;
+                border-radius:50%;
+                border: 1px solid #cfcfcf;
+            }
+            h2{
+                margin:10px;
+                padding-bottom:10px;
+                text-transform: uppercase;
+
+            }
+            .progress .mask,
+            .progress .fill{
+                width:150px;
+                height:150px;
+                position:absolute;
+                border-radius: 50%;
+                border-radius:50%;
+
+
+            }
+            .progress .mask{
+                clip: rect(0px, 150px, 150px, 75px);
+            }
+            .inside-circle{
+                width:122px;
+                height:122px;
+                font-size:2rem;
+                position:absolute;
+                background-color:#fff;
+                border-radius:50%;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                margin:14px 0 0 14px;
+
+            }
+            .mask .fill{
+                clip: rect(0px, 75px, 150px, 0px );
+                background: #903bdf;
+
+            }
+            .mask.full,
+            .progress .fill{
+                animation: fill ease-in-out 3s;
+                transform: rotate(150deg);
+            }
+            @keyframes fill{
+                0%{
+                    transform: rotate(0deg);
+                }
+                
+            }
+            .inside-circle span{
+                font-size: 1.2rem;
+                margin-left: 0.2rem;
+
+            }
+            .line{
+                margin-top:2rem;
+                border:1px solid rgb(216, 216, 216);
+            }
+            .progress-report{
+                display: flex;
+                justify-content:center;
+                align-items:center;
+            }
+            .progress-report h3{
+                font-size:1.5erm;
+                padding: 1rem;
+            }
+            .progress-report span{
+                font-size: 1rem;
+                color: rgb(99, 98, 98);
+
+            }
+            .progress-report .line{
+                height:5rem;
+            }
+            .contact{
+                display:flex;
+                padding:10px;
+                border-radius:10px;
+                background: rgb(224, 215, 231);
+
+            }
+            .contact img{
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                padding:2px;
+                border: 1px solid rgb(159, 149, 167);
+            }
+            .contact .text{
+                text-align: left;
+                padding: 10px 20px;
+
+            }
+            .contact .text h3{
+                text-transform: capitalize;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Progress report</h2>
+            <div class="progress-container">
+                <div class="progress">
+                    <div class="mask full">
+                        <div class="fill"></div>
+                        </div>
+                        <div class="mask half">
+                             <div class="fill"></div>
+                        </div>
+                        <div class="inside-circle">82 <span>%</span></div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="progress-report">
+                    <h3>76% <br><span>Last Week</span></h3>
+                    <div class="line"></div>
+                    <h3>80% <br> <span>Current</span></h3>
+                </div>
+                <div class="contact">
+                    <img src="pic.jpg" alt="profile">
+                    <div class="text">
+                        <h3>Bhargav Pattanayak</h3>
+                        <span>bhrgv@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        
+    </body>
+</html>
