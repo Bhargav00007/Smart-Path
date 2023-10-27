@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parent-Dashboard</title>
+    <link rel="stylesheet" href="student.css" />
+    <link rel="stylesheet" href="master.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="grid-item" id="sideBar">
+        <div id="dashboard">
+          <svg
+            id="dashboardSvg"
+            class="icons"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <title>view-dashboard</title>
+            <path
+              d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z"
+              fill="white"
+            />
+          </svg>
+
+          <div id="dashboardText">Parent Dashboard</div>
+        </div>
+        <div id="upperSide">
+          <div class="sideItems">
+            <svg
+              id="homeIcon"
+              class="sideIcon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <title>home</title>
+              <path
+                d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z"
+                fill="white"
+              />
+            </svg>
+            Home
+          </div>
+          <div class="sideItems">
+            <svg
+              id="profileIcon"
+              class="sideIcon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <title>account</title>
+              <path
+                d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z"
+                fill="white"
+              />
+            </svg>
+            Notifications & alerts
+          </div>
+          <div class="sideItems">
+            <svg
+              id="messageIcon"
+              class="sideIcon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <title>message</title>
+              <path
+                d="M20,2H4A2,2 0 0,0 2,4V22L6,18H20A2,2 0 0,0 22,16V4C22,2.89 21.1,2 20,2Z"
+                fill="white"
+              />
+            </svg>
+            <a href="progress.html" class="gay">Report card</a>
+          </div>
+          <div class="sideItems">
+            <svg
+              id="historyIcon"
+              class="sideIcon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 22 22"
+            >
+              <title>clock</title>
+              <path
+                d="M10 5H12V11H13V12H14V13H15V15H13V14H12V13H11V12H10V5M15 1V2H17V3H18V4H19V5H20V7H21V15H20V17H19V18H18V19H17V20H15V21H7V20H5V19H4V18H3V17H2V15H1V7H2V5H3V4H4V3H5V2H7V1H15M14 3H8V4H6V5H5V6H4V8H3V14H4V16H5V17H6V18H8V19H14V18H16V17H17V16H18V14H19V8H18V6H17V5H16V4H14V3Z"
+                fill="white"
+              />
+            </svg>
+            Feedback
+          </div>
+          <div class="sideItems">
+            <svg
+              id="taskIcon"
+              class="sideIcon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <title>note</title>
+              <path
+                d="M14,10V4.5L19.5,10M5,3C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V9L15,3H5Z"
+                fill="white"
+              />
+            </svg>
+           <a href="analytics.html"  class="gay">Analytics</a>
+          </div>
+          <div class="sideItems">
+            <svg
+              id="analyticsIcon"
+              class="sideIcon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <title>account-group</title>
+              <path
+                d="M12,5.5A3.5,3.5 0 0,1 15.5,9A3.5,3.5 0 0,1 12,12.5A3.5,3.5 0 0,1 8.5,9A3.5,3.5 0 0,1 12,5.5M5,8C5.56,8 6.08,8.15 6.53,8.42C6.38,9.85 6.8,11.27 7.66,12.38C7.16,13.34 6.16,14 5,14A3,3 0 0,1 2,11A3,3 0 0,1 5,8M19,8A3,3 0 0,1 22,11A3,3 0 0,1 19,14C17.84,14 16.84,13.34 16.34,12.38C17.2,11.27 17.62,9.85 17.47,8.42C17.92,8.15 18.44,8 19,8M5.5,18.25C5.5,16.18 8.41,14.5 12,14.5C15.59,14.5 18.5,16.18 18.5,18.25V20H5.5V18.25M0,20V18.5C0,17.11 1.89,15.94 4.45,15.6C3.86,16.28 3.5,17.22 3.5,18.25V20H0M24,20H20.5V18.25C20.5,17.22 20.14,16.28 19.55,15.6C22.11,15.94 24,17.11 24,18.5V20Z"
+                fill="white"
+              />
+            </svg>
+            surveys
+          </div>
+        </div>
+        <div id="lowerSide">
+          <div class="sideItems">
+            <svg
+              id="settingsIcon"
+              class="sideIcon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <title>cog</title>
+              <path
+                d="M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.67 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z"
+                fill="white"
+              />
+            </svg>
+            Settings
+          </div>
+          <div class="sideItems">
+            <svg
+              id="supportIcon"
+              class="sideIcon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <title>help-box</title>
+              <path
+                d="M11,18H13V16H11V18M12,6A4,4 0 0,0 8,10H10A2,2 0 0,1 12,8A2,2 0 0,1 14,10C14,12 11,11.75 11,15H13C13,12.75 16,12.5 16,10A4,4 0 0,0 12,6M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3Z"
+                fill="white"
+              />
+            </svg>
+            Support
+          </div>
+          <div class="sideItems">
+            <svg
+              id="privacyIcon"
+              class="sideIcon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <title>shield-check-outline</title>
+              <path
+                d="M21,11C21,16.55 17.16,21.74 12,23C6.84,21.74 3,16.55 3,11V5L12,1L21,5V11M12,21C15.75,20 19,15.54 19,11.22V6.3L12,3.18L5,6.3V11.22C5,15.54 8.25,20 12,21M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9"
+                fill="white"
+              />
+            </svg>
+            Privacy
+          </div>
+        </div>
+      </div>
+      <div class="grid-item" id="header">
+        <div class="searchBar">
+          <svg
+            id="magnify"
+            class="icons"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <title>magnify</title>
+            <path
+              d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z"
+            />
+          </svg>
+          <input type="text" id="search" />
+        </div>
+        <div class="rightSide">
+          <!-- <div id="notification">ting</div> -->
+
+          <svg
+            class="icons"
+            id="bell"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <title>bell-ring-outline</title>
+            <path
+              d="M10,21H14A2,2 0 0,1 12,23A2,2 0 0,1 10,21M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M17,11A5,5 0 0,0 12,6A5,5 0 0,0 7,11V18H17V11M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z"
+            />
+          </svg>
+          <img src="par.png" alt="profilePic" class="photo" />
+          <div class="userName">Parent</div>
+        </div>
+      </div>
+      <div class="grid-item" id="navBar">
+        <div class="leftSide">
+          <img src="par.png" alt="profilePic" class="photo" />
+          <div class="greetings">
+            <p>Hi there, <b>Parent</b></p>
+          </div>
+        </div>
+            <style>
+                body {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                    margin: 0;
+                    font-family: 'Montserrat', sans-serif;
+                }
+        
+                .content {
+                    text-align: center;
+                    margin-top: 20cm;
+                    margin-right: 7cm;
+                }
+        
+                img {
+                    width: 200px; /* Set the width as needed */
+                    height: 300px; /* Set the height as needed */
+                }
+                blockquote p {
+            font-size: 20px; /* Adjust the font size as needed */
+        }
+            </style>
+        </head>
+        <body>
+            <div class="content">
+                <img src="future.jpg" alt="Student performance" width="200" height="300" title="A T-Rex on display in the Manchester University Museum" />
+                <blockquote>
+                    <p>
+                      It is important for parents to know how their kids are studying so they can provide support and guidance, monitor progress, set expectations, and build a relationship. Parents can help their kids improve academic performance, increase motivation, reduce stress and anxiety, boost self-esteem, and strengthen the parent-child relationship by taking an interest in their education.
+                    </p>
+                </blockquote>
+            </div>
+        </body>
+        
+      
+        
+      
+        
+        
+        
+        
+      
+
+
+  </body>
+</html>
