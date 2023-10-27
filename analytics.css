@@ -123,3 +123,18 @@ body{
 	border-top-right-radius: 0px;
 	border-bottom-right-radius: 0px;
 }
+.buttons{
+	display:flex;
+	position:relative;
+	text-decoration:none;
+	color:black;
+	top:100px;
+	left:1000px;
+	padding: 10 20;
+	height:50px;
+	width:70px;
+	border-radius: 20px;
+}
+.buttons i{
+	font-size: 50px;
+}
